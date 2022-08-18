@@ -1,0 +1,24 @@
+Librerías usadas en la app.
+
+A continuación, se listan las librerías junto con su función dentro del app y cómo incorporarlas desde la terminal de Anaconda.
+
+Streamlit - base de la app.
+  conda install streamlit
+
+Pandas - lectura y manipulación de archivos CSV.
+  conda install pandas
+  
+Numpy - facilitar la visualización de datos en archivos CSV.
+  conda install numpy
+  
+Matplotlib - se usa Pyplot para poder visualizar gráficamente los datos en archivos CSV.
+  conda install matplotlib
+
+Datetime - se usa para poder seleccionar rápidamente fecha de evaluación del paciente.
+  No requiere instalación, ya viene instalado
+  
+Docxtpl - se usa para poder editar la plantilla en Word desde la app.
+  conda install -c conda-forge docxtpl
+  
+Python-Docx - se usa para editar aspectos de la plantilla, como imágenes y tamaños. 
+  conda install -c conda-forge python-docx
